@@ -48,19 +48,19 @@
 					<li class="<?=$page==='matkul'?"active":""?>">
 						<a href="<?=base_url('matkul')?>">
 							<i class="fa fa-circle-o"></i>
-							Master Mata Kuliah
+							Master Pelajaran
 						</a>
 					</li>
 					<li class="<?=$page==='dosen'?"active":""?>">
 						<a href="<?=base_url('dosen')?>">
 							<i class="fa fa-circle-o"></i>
-							Master Dosen
+							Master Guru
 						</a>
 					</li>
 					<li class="<?=$page==='mahasiswa'?"active":""?>">
 						<a href="<?=base_url('mahasiswa')?>">
 							<i class="fa fa-circle-o"></i>
-							Master Mahasiswa
+							Master Murid
 						</a>
 					</li>
 				</ul>
@@ -75,13 +75,13 @@
 					<li class="<?=$page==='kelasdosen'?"active":""?>">
 						<a href="<?=base_url('kelasdosen')?>">
 							<i class="fa fa-circle-o"></i>
-							Kelas - Dosen
+							Kelas - Guru
 						</a>
 					</li>
 					<li class="<?=$page==='jurusanmatkul'?"active":""?>">
 						<a href="<?=base_url('jurusanmatkul')?>">
 							<i class="fa fa-circle-o"></i>
-							Jurusan - Mata Kuliah
+							Jurusan - Pelajaran
 						</a>
 					</li>
 				</ul>

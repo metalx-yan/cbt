@@ -12,7 +12,7 @@
             <div class="col-sm-4 col-sm-offset-4">
                 <?=form_open('kelasdosen/save', array('id'=>'kelasdosen'), array('method'=>'edit', 'dosen_id'=>$id_dosen))?>
                 <div class="form-group">
-                    <label>Dosen</label>
+                    <label>Guru</label>
                     <input type="text" readonly="readonly" value="<?=$dosen->nama_dosen?>" class="form-control">
                     <small class="help-block text-right"></small>
                 </div>

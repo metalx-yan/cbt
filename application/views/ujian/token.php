@@ -16,7 +16,7 @@
                         <td><?=$mhs->nama?></td>
                     </tr>
                     <tr>
-                        <th>Dosen</th>
+                        <th>Guru</th>
                         <td><?=$ujian->nama_dosen?></td>
                     </tr>
                     <tr>

@@ -14,7 +14,7 @@
 			<div class="form-group col-sm-4 text-center">
 				<?php if ( $this->ion_auth->is_admin() ) : ?>
 					<select id="matkul_filter" class="form-control select2" style="width:100% !important">
-						<option value="all">Semua Matkul</option>
+						<option value="all">Semua Pelajaran</option>
 						<?php foreach ($matkul as $m) :?>
 							<option value="<?=$m->id_matkul?>"><?=$m->nama_matkul?></option>
 						<?php endforeach; ?>
@@ -41,8 +41,8 @@
 					<input type="checkbox" class="select_all">
 				</th>
                 <th width="25">No.</th>
-				<th>Dosen</th>
-                <th>Mata Kuliah</th>
+				<th>Guru</th>
+                <th>Pelajaran</th>
 				<th>Soal</th>
 				<th>Tgl Dibuat</th>
 				<th class="text-center">Aksi</th>
@@ -54,8 +54,8 @@
 					<input type="checkbox" class="select_all">
 				</th>
                 <th width="25">No.</th>
-				<th>Dosen</th>
-                <th>Mata Kuliah</th>
+				<th>Guru</th>
+                <th>Pelajaran</th>
 				<th>Soal</th>
 				<th>Tgl Dibuat</th>
 				<th class="text-center">Aksi</th>

@@ -24,7 +24,7 @@
                     <thead>
                         <tr>
                             <th># No</th>
-                            <th>Matkul</th>
+                            <th>Pelajaran</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -23,7 +23,7 @@
             <div class="col-sm-4">
                 <?=form_open('kelasdosen/save', array('id'=>'kelasdosen'), array('method'=>'add'))?>
                 <div class="form-group">
-                    <label>Dosen</label>
+                    <label>Guru</label>
                     <select name="dosen_id" class="form-control select2" style="width: 100%!important">
                         <option value="" disabled selected></option>
                         <?php foreach ($dosen as $d) : ?>

@@ -39,7 +39,7 @@
                                 <td>NIP</td>
                                 <td>Nama</td>
                                 <td>Email</td>
-                                <td>ID Mata Kuliah</td>
+                                <td>ID Pelajaran</td>
                             </tr>
                         </thead>
                         <tbody>

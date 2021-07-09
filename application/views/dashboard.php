@@ -5,7 +5,15 @@
         <div class="small-box bg-<?=$info->box?>">
         <div class="inner">
             <h3><?=$info->total;?></h3>
-            <p><?=$info->title;?></p>
+            <?php 
+                if ($info->title == 'Dosen') {
+                    echo "<p>Guru</p>";
+                } elseif ($info->title == 'Mahasiswa') {
+                    echo "<p>Murid</p>";
+                } else {
+                    echo  "<p>$info->title</p>";
+                }
+            ?>
         </div>
         <div class="icon">
             <i class="fa fa-<?=$info->icon?>"></i>
@@ -40,7 +48,7 @@
                     <td><?=$dosen->email?></td>
                 </tr>
                 <tr>
-                    <th>Mata Kuliah</th>
+                    <th>Pelajaan</th>
                     <td><?=$dosen->nama_matkul?></td>
                 </tr>
                 <tr>

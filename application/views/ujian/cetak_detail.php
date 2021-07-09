@@ -73,13 +73,13 @@ Dolore distinctio, at consequuntur magnam cupiditate voluptate hic ratione ea il
     <tr>
         <th>Nama Ujian</th>
         <td>{$ujian->nama_ujian}</td>
-        <th>Mata Kuliah</th>
+        <th>Pelajaran</th>
         <td>{$ujian->nama_matkul}</td> 
     </tr>
     <tr>
         <th>Jumlah Soal</th>
         <td>{$ujian->jumlah_soal}</td>
-        <th>Dosen</th>
+        <th>Guru</th>
         <td>{$ujian->nama_dosen}</td>
     </tr>
     <tr>
